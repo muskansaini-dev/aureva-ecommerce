@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-ink: #1b1b1b;
+  --color-ivory: #f7f3ea;
+  --color-bottle: #1f2e24;
+  --color-brass: #b08d57;
+  --color-burgundy: #6b2737;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
